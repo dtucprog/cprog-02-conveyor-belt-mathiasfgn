@@ -2,18 +2,19 @@
 
 int MOTOR_CAPACITY = 12;
 
-int main(int argc, char *argv[]) {
+int main() {
     int motorCount, totalPackageWeight, TOTAL_MOTOR_CAPACITY;
-
-    sscanf(argv[1], "%d", &motorCount);
-    sscanf(argv[2], "%d", &totalPackageWeight);
 
     printf("How many motors are carrying the packages?\n");
     
+    scanf("%d", &motorCount);
+
     printf("%d\n", motorCount);
     
     printf("How many kg of packages do we expect?\n");
     
+    scanf("%d", &totalPackageWeight);
+
     printf("%d\n", totalPackageWeight);
     
     TOTAL_MOTOR_CAPACITY = motorCount * MOTOR_CAPACITY;
