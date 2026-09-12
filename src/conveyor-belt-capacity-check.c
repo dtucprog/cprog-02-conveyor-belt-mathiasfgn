@@ -22,7 +22,7 @@ int main() {
     if (totalPackageWeight <= TOTAL_MOTOR_CAPACITY) {
         printf("Yes! The conveyor belt can carry the packages.");
     } else {   
-        printf("No! The conveyor belt cannot carry the packages.");
+        printf("No. The conveyor belt cannot carry the packages.");
     }
 
 }
